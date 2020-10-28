@@ -1,4 +1,4 @@
-from tkinter import * #https://www.youtube.com/watch?v=OqfcGng4oKs
+from tkinter import *
 import os
 
 
