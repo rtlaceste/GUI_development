@@ -2,7 +2,9 @@ from tkinter import *
 from tkinter import ttk
 from selenium import webdriver
 import time
+
 root = Tk()
+
 label = ttk.Label(root, text="Hello, Tkinter")
 label.pack()
 label.config(foreground='black', background='white')
@@ -26,8 +28,6 @@ button3.place(relx=.8, rely=.75)
 def go_to_youtube():
     chrome_browser = webdriver.Chrome(r'C:\Users\Troy\Desktop\WebDev\Misc\chromedriver.exe')
     chrome_browser.get('https://www.youtube.com')
-
-
 
 def go_to_reddit():
     chromebrowser = webdriver.Chrome(r'C:\Users\Troy\Desktop\WebDev\Misc\chromedriver.exe')
