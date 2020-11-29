@@ -728,7 +728,7 @@ def Master_Function():
     if c9.get():
         #Phase 1
         
-        status["Environmental Report (ETS)"] = 'Yes'
+        status["Environmental Report (Phase 1)"] = 'Yes'
         
         pass
     
